@@ -1,0 +1,24 @@
+@import "variables.css";
+@import "header.css";
+@import "home-page.css";
+@import "reset.css";
+@import "cards.css";
+@import "citrus.css";
+@import "catalog.css";
+@import "review.css";
+@import "offer.css";
+@import "nature.css";
+@import "pictures-card.css";
+@import "footer.css";
+@import "map.css";
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+.picture-cards {
+    min-height: 860px;
+    background: var(--color-green-grey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture-card {
+    width: 460px;
+    height: 580px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.picture-card__juice {
+    background-image: url(../images/fruit-juice.svg);
+}
+
+.picture-card__organic {
+    background-image:url(../images/organic-food.svg)
+}
+
+.picture-card__cookies {
+    background-image:url(../images/nuts-cookirs.svg)
+}
+
+.picture-box {
+    border-radius: 20px;
+    background: #FFF;
+    padding: 30px 80px;
+    width: fit-content;
+}
+
+.picture-name {
+    display: block;
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--font-family-roboto);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    letter-spacing: 0.36px;
+}
+
+@media(max-width:1400px) {
+    .picture-cards {
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}

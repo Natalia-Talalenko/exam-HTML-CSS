@@ -1,0 +1,125 @@
+.catalog-inner {
+    min-height: 1621px;
+    padding-top: 122px;
+    padding-bottom: 139px;
+}
+
+.catalog-text {
+    text-align: center;
+    min-height: 122px;
+}
+
+.calalog-text__organic {
+    color: var(--color-green);
+    text-align: center;
+    font-family: var(--font-family-yellowtail);
+    font-size: 36px;
+}
+
+.catalog-text {
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--font-family-roboto);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.calalog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.catalog-card {
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 590px;
+    border-radius: 30px;
+    background: var(--color-grey-white);
+    margin: 10px auto;
+}
+
+.catalog-card__inner {
+    width: 387px;
+    margin: 35px 30px;
+}
+
+.catalog-chapter__text {
+    border-radius: 8px;
+    background: var(--color-dark-green);
+    color: var(--color-white);
+    font-family: var(--font-family-open-sans);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px; 
+    padding: 5px 20px;
+}
+
+.catalog-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.catalog-name {
+    color: var(--color-dark-green);
+    font-family: var( --font-family-roboto);
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 11px;
+}
+
+.catalog-information {
+    display: flex;
+    border-top: 1px solid #B8B8B8;
+    padding: 11px 0;
+
+}
+
+.information-price {
+    color: var(--color-grey);
+    font-family: var(--font-family-open-sans);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    text-decoration-line: strikethrough;
+    text-decoration: line-through;
+}
+
+.information-sale {
+    color: var(--color-dark-green);
+    font-family: var(--font-family-open-sans);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px; /* 180% */
+    letter-spacing: 0.36px;
+    padding-left: 10px;
+}
+
+.review-title__stars {
+    margin-left: 48px;
+}
+
+@media(max-width:450px) {
+    .catalog-inner {
+        min-height: 1521px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .catalog-card__inner {
+        width: 320px;
+        margin: 0 0;
+}
+}
+
+@media(max-width:450px) {
+    .catalog-card__img {
+        width: 320px;
+        height: 320px;
+    }
+
+}

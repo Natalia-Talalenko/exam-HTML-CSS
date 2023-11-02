@@ -1,0 +1,18 @@
+:root {
+    --color-green: #7EB693;
+    --color-dark-green: #274C5B;
+    --color-white: #FFF;
+    --color-yellow: #EFD372;
+    --color-light-grey: #F9F8F8;
+    --color-dark-grey: #525c60;
+    --color-grey: #B8B8B8;
+    --color-green-grey: #EFF6F1;
+    --color-green-blue: #335B6B;
+    --color-grey-white: #F9F8F8;
+    --color-grey-grey: #E0E0E0;
+    --color-vanila: #F1F1F1;
+
+    --font-family-yellowtail: "Yellowtail", Arial, cursive, sans-serif;
+    --font-family-roboto: "Roboto", Arial, sans-serif;
+    --font-family-open-sans: "Open Sans", Arial, sans-serif;
+}

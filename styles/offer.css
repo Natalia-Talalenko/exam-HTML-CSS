@@ -1,0 +1,47 @@
+.offer {
+    background-color: var(--color-dark-green);
+    min-height: 1060px;
+    padding-top: 130px;
+    padding-bottom: 160px;
+}
+
+.offer-products {
+    margin: 0 auto;
+
+}
+
+.offer-discription {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.offer-befor {
+    color: var(--color-green);
+    font-family: var(--font-family-yellowtail);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.offer-title {
+    color: var(--color-white);
+    font-family: var(--font-family-roboto);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.circle-offer {
+    left: 200px;
+    top: 23px;
+}
+
+@media (max-width:770px){
+    .offer-discription {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .offer-title {
+        margin-bottom: 15px;
+    }
+}

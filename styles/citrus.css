@@ -1,0 +1,139 @@
+.citrus {
+   min-height: 1006px; 
+   background-color: var(--color-light-grey);
+   display: flex;
+   justify-content: center;
+}
+
+.citrus-box {
+    display: flex;
+    align-items: center;
+}
+
+.discription-text__text {
+    color: var(--color-green);
+    font-family: var(--font-family-yellowtail);
+    font-size: 36px;
+}
+
+.discription-text__title {
+    color: var(--color-dark-green);
+    font-family: var(--font-family-roboto);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58.5px;
+    width: 521px;
+    margin-bottom: 22px;
+}
+
+.discription-text__paragraph {
+    color: var(--color-dark-grey);
+    font-family: var(--font-family-open-sans);
+    font-size: 18px;
+    margin-bottom: 56px;
+}
+
+.citrus-point {
+    display: flex;
+}
+
+.citrus-point__img {
+    min-width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: var(--color-white);
+    position: relative;
+    margin: 0 20px 32px 0;
+}
+
+
+.citrus-point__image {
+    position: absolute;
+    top: 27px;
+    left: 31px;
+}
+
+.citrus-point__title {
+    color: var(--color-dark-green);
+    font-family: var(--font-family-roboto);
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.citrus-point__text {
+    color: var(--color-dark-grey);
+    font-family: var(--font-family-open-sans);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button-green {
+    background-color: var(--color-dark-green) ;
+    border-color: var(--color-dark-green);
+    color: var(--color-white);
+    margin-top: 45px;
+}
+    
+.circle-green {
+    background-color: var(--color-green-blue);
+    left: 140px;
+}
+
+@media (max-width:1200px) {
+    .citrus-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .discription-text__title {
+        width: unset;
+    }
+    .button-green__position {
+        margin: 15px;
+    }
+}
+
+@media(max-width:700px){
+    .discription-text__title {
+        font-size: 35px;
+        width: 500px;
+    }
+    
+    .discription-text__paragraph {
+        font-size: 16px;
+    }
+    .citrus-box_img {
+        width: 600px;
+    }
+}
+
+@media(max-width:700px){
+    .citrus-box_img {
+        width: 450px;
+    }
+}
+
+@media(max-width:550px){
+    .discription-text__title {
+        font-size: 35px;
+        width: 400px;
+    }
+    
+    .discription-text__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:456px){
+    .citrus-box_img {
+        width: 320px;
+    }
+}
+
+@media(max-width:4100px){
+    .discription-text__title {
+        font-size: 35px;
+        width: 320px;
+    }
+}
